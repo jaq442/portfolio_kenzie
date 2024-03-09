@@ -1,0 +1,29 @@
+.container-height {
+  height: fit-content;
+  padding: 4rem 1rem;
+}
+
+.square {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+}
+
+@media (min-width: 700px) {
+  .container-height {
+    justify-content: space-between;
+    gap: 5rem;
+  }
+}

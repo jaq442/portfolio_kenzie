@@ -1,0 +1,40 @@
+.containerAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.icon {
+  width: 20%;
+
+  object-fit: contain;
+}
+
+.eus {
+  width: 40%;
+
+  object-fit: contain;
+}
+
+.paragraphAbout {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .containerAbout {
+    flex-direction: column-reverse;
+  }
+
+  .eus {
+    width: 70%;
+    align-self: center;
+  }
+}

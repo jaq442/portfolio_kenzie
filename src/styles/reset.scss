@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  margin-top: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select {
+  background: transparent;
+  border: none;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+

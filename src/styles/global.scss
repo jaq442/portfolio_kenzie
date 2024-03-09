@@ -1,0 +1,29 @@
+:root {
+  --font-primary: "Fraunces", serif;
+  --font-secondary: "Montserrat", sans-serif;
+  --black: #13262f;
+  --gray: #e1e2ec;
+  --light-black: #1f3038;
+}
+
+.background-light {
+  background-color: var(--gray);
+}
+
+.background-black {
+  background-color: var(--black);
+}
+
+img {
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+.inline {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
