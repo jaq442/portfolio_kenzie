@@ -14,7 +14,7 @@ const data = [
       "https://github.com/Kenzie-Academy-Brasil-Developers/fullstack-react-jaqueline/tree/main/my-react-app",
     repositoryBack:
       "https://github.com/Kenzie-Academy-Brasil-Developers/fullstack-nodejs-jaqueline",
-    deploy: "https://fullstack-oajzp80p7-nu-kenzie-jaq442.vercel.app/",
+    deploy: "hhttps://fullstack-one-inky.vercel.app/",
   },
   {
     id: 2,
