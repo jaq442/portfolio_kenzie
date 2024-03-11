@@ -1,3 +1,3 @@
 # Conheça meu portfólio
 
-Deploy: https://portfolio-kenzie-39kuc1fj2-jaq442.vercel.app/
+Deploy: portfolio-kenzie-two.vercel.app
