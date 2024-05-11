@@ -8,7 +8,7 @@ export const Header = () => {
         <div className={`container-height container ${styles.containerHeader}`}>
           <div className={`${styles.containerName}`}>
             <div className={styles.line}></div>
-            <h2 className="paragraph white medium">JAQUELINE HIROSE</h2>
+            <h2 className="paragraph white medium">JAQUELINE OLIVEIRA</h2>
             <p className="paragraph white small">
               Web Developer | Sistemas para Internet
             </p>

@@ -29,16 +29,15 @@ export const About = () => {
               >
                 Estudo Sistemas para Internet na Universidade Anhembi Morumbi e
                 participei do bootcamp Kenzie Academy Fullstack, com projetos em
-                Javascript, React, NodeJs e PostgreSQL. Tenho interesse nas
-                áreas de programação front-end e gestão de TI. Por minha
+                Javascript, React, NodeJs, PostgreSQL e Wordpress. Tenho interesse nas
+                áreas de programação front-end. Por minha
                 afinidade com área de humanas cursei Relações Públicas,
                 trabalhando na área e também como comissária de voo. Trajetória
                 que me fez aprender muito sobre como lidar com situações
                 inesperadas criando soluções mais criativas possíveis, trabalho
                 em equipe e como o respeito e comunicação são peças fundamentais
                 para nos relacionarmos com a pluralidade que é o ser humano.
-                Atualmente sou estagiária na área de governança de TI da empresa
-                NTT DATA, Inc. atuando com Incident e Problem Management.
+                
               </p>
               <div className={styles.img}>
                 <img className={styles.icon} src={Javascript} alt="Javascript"></img>

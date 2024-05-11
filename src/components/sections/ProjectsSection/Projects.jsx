@@ -20,15 +20,27 @@ export const Projects = () => {
               <p className="paragraph small dark-color">
                 {project.description}
               </p>
-              {project.repository === 0 ?  <a className="hidden">
-                
-                </a> : (<a href={project.repository}>
-                <p className="paragraph link small dark-color">Repositório Front-End</p>
-              </a> ) }
-              {project.repositoryBack === 0 ? (
-                <a className="hidden">
-                
+
+              {project.deploy === 0 ? (
+                <a className="hidden"></a>
+              ) : (
+                <a href={project.deploy}>
+                  <p className="paragraph link small dark-color">
+                    Clique veja aplicação
+                  </p>
                 </a>
+              )}
+              {project.repository === 0 ? (
+                <a className="hidden"></a>
+              ) : (
+                <a href={project.repository}>
+                  <p className="paragraph link small dark-color">
+                    Repositório Front-End
+                  </p>
+                </a>
+              )}
+              {project.repositoryBack === 0 ? (
+                <a className="hidden"></a>
               ) : (
                 <a href={project.repositoryBack}>
                   <p className="paragraph link small dark-color">
