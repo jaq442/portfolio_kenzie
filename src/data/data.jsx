@@ -5,6 +5,7 @@ import crud from "../assets/crud.png";
 import cowork from "../assets/cowork.png";
 import ceramica from "../assets/ceramica.png";
 import francisco from "../assets/francisco.png";
+import drago from "../assets/drago.png";
 
 const data = [
   {
